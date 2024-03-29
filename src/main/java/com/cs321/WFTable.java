@@ -17,6 +17,10 @@ public class WFTable {
         return contents.remove(w);
     }
 
+    public WFItem get(int i) {
+        return contents.get(i);
+    }
+
     public int countWFItems(String step) {
         int sum = 0;
         for(WFItem i : contents) {
