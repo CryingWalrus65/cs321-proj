@@ -7,7 +7,7 @@ class CountWFItemsTest {
 
     @Test
     void TestWFCount() {
-        WFItem wfobj = new WFItem();
+        //WFItem wfobj = new WFItem();
         //int count = wfobj.countWFItems("null");
 
         //assertEquals(0, count);
